@@ -16,7 +16,15 @@ public:
  * store of data, and cannot be resized.
  */
 class StaticGigaSeries : public GigaSeries {
-
+public:
+    unsigned long get_length() override {
+        // NOTE: temp code for scaffolding & building purposes
+        return 0;
+    }
+    unsigned long long get_bytes() override {
+        // NOTE: temp code for scaffolding & building purposes
+        return 0;
+    }
 };
 
 /**

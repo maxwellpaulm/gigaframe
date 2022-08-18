@@ -6,6 +6,6 @@
 #define GIGAFRAME_TYPES_H
 
 typedef unsigned long IndexType;
-typedef unsigned long long SizeType
+typedef unsigned long long SizeType;
 
 #endif //GIGAFRAME_TYPES_H
